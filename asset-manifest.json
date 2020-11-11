@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5ac34f0.chunk.css",
+    "main.js": "/static/js/main.3568b7d5.chunk.js",
+    "main.js.map": "/static/js/main.3568b7d5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.a0274ead.chunk.js": "/static/js/2.a0274ead.chunk.js",
+    "static/js/2.a0274ead.chunk.js.map": "/static/js/2.a0274ead.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4df5e353b7519ef6512587159fe6472f.js": "/precache-manifest.4df5e353b7519ef6512587159fe6472f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a5ac34f0.chunk.css.map": "/static/css/main.a5ac34f0.chunk.css.map",
+    "static/js/2.a0274ead.chunk.js.LICENSE.txt": "/static/js/2.a0274ead.chunk.js.LICENSE.txt",
+    "static/media/github.png": "/static/media/github.12048fae.png",
+    "static/media/myPic.jpeg": "/static/media/myPic.e320a7c5.jpeg",
+    "static/media/udefyn.jpeg": "/static/media/udefyn.4e94e9e2.jpeg",
+    "static/media/zono.png": "/static/media/zono.189cf65e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.a0274ead.chunk.js",
+    "static/css/main.a5ac34f0.chunk.css",
+    "static/js/main.3568b7d5.chunk.js"
+  ]
+}
