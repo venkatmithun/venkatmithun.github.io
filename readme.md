@@ -1,3 +1,5 @@
+Deployed on venkatmithun.github.io
+
 #What was the most challenging piece of this assignment? Did you find it easy or challenging to work with HTML and CSS? How long did this overall assignment take you?
 The most challenging piece of this assignment is working without javascript, applying CSS, designing the web application. I would find it less time consuming if I could've reused some code components. Without detailed wireframes it was indeed challenging to make design decisions on the fly and implement them. I spent around 12 hours in total but working on improving content and CSS yet.
 
