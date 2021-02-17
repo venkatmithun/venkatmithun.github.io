@@ -2,28 +2,38 @@
   padding: 20px 16px 16px 16px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  height: 80vh;
 }
 
-#pic {
-  height: 300px;
-  width: 220px;
-  border-radius: 100px;
-  border-width: 1px;
-  transition: transform 0.5s;
+#root {
+  background-image: url("../images/hobbies.webp");
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 100vh;
 }
 
-#pic:hover {
-  transform: scale(1.4);
-  border-radius: 0px;
+#info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-@media (max-width: 960px) {
-  #pic {
-    height: 200px;
-    width: 160px;
-    border-radius: 100px;
-    border-width: 1px;
-  }
+#hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#hobbies-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
 }

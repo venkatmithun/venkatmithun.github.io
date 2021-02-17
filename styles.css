@@ -4,8 +4,17 @@ body {
   padding: 0;
 }
 
+#root {
+  height: 100vh;
+  width: 100%;
+}
+
 #home {
-  padding: 0px 16px 16px 16px;
+  padding: 0px 0px 16px 0px;
+}
+
+.section {
+  padding: 5px 16px 16px 16px;
 }
 
 .topnav ul,
@@ -15,8 +24,17 @@ body {
   margin: 0;
 }
 
+.alt-list li {
+  padding: 10px;
+}
+
+i {
+  padding-right: 5px;
+}
+
 nav h1 {
-  text-align: center;
+  color: #ffffff;
+  padding-left: 20px;
 }
 
 ul {
@@ -28,12 +46,12 @@ ul {
   position: -webkit-sticky;
   top: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #9575cd;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -41,15 +59,43 @@ ul {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #aa90d7;
   color: black;
 }
 
 .topnav a.active {
-  background-color: #4caf50;
+  background-color: #68518f;
   color: white;
 }
 
 .alt-list li:nth-child(odd) {
   background-color: #eee;
+}
+
+#pic {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  height: 100px;
+  width: 90px;
+  border-radius: 100px;
+  border-width: 1px;
+  transition: transform 0.5s;
+  z-index: 999;
+}
+
+#pic:hover {
+  transform: scale(1.4);
+  border-radius: 0px;
+}
+
+@media (max-width: 480px) {
+  #pic {
+    display: none;
+  }
+}
+
+a,
+u {
+  text-decoration: none;
 }

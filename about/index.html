@@ -14,50 +14,69 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
   <body>
-    <div>
+    <div id="root">
       <nav class="topnav">
         <h1>Venkat Mithun Kadiyala</h1>
         <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="../projects/index.html">Projects</a></li>
-          <li><a href="../contact/index.html">Contact</a></li>
+          <li><a href="../">Home</a></li>
+          <li><a href="../projects/">Projects</a></li>
+          <li><a href="../contact/">Contact</a></li>
           <li><a class="active" href="#about">About</a></li>
         </ul>
+        <img src="../images/me.jpeg" alt="My Picture" id="pic" />
       </nav>
 
       <div id="about">
-        <img src="me.jpeg" alt="My Picture" id="pic" />
-        <p>
-          Software Engineer with full-stack expertise who is passionate about
-          solving real world problems with a sense of responsibility and
-          positive attitude.
-        </p>
-        <p>
-          Self-taught programmer with a deeper understanding of Data Structures
-          & Algorithms, brings in futuristic designs and writes highly scalable
-          code.
-        </p>
-        <p>
-          Having worked with startups as well as large scale organizations,
-          skilled in different Software Development Life Cycle phases working in
-          Agile as well as Waterfall environments.
-        </p>
-        <p>
-          Wants to continue successfully building solutions creating major
-          impact alongside bright, motivated people.
-        </p>
-        <p>
-          Always looking to grow. Quick learner. Likes to ship early and often.
-        </p>
-        <h3>Hobbies</h3>
-        <p>Drawing</p>
-        <p>Video Gaming</p>
-        <p>Travelling</p>
-        <p>Watching Anime</p>
+        <div id="info">
+          <h3>
+            Software Engineer with full-stack expertise who is passionate about
+            solving real world problems with a sense of responsibility and
+            positive attitude.
+          </h3>
+          <h3>
+            Self-taught programmer with a deeper understanding of Data
+            Structures & Algorithms, brings in futuristic designs and writes
+            highly scalable code.
+          </h3>
+          <h3>
+            Having worked with startups as well as large scale organizations,
+            skilled in different Software Development Life Cycle phases working
+            in Agile as well as Waterfall environments.
+          </h3>
+          <h3>
+            Wants to continue successfully building solutions creating major
+            impact alongside bright, motivated people.
+          </h3>
+          <h3>
+            Always looking to grow. Quick learner. Likes to ship early and
+            often.
+          </h3>
+        </div>
+        <div id="hobbies">
+          <h3>Hobbies include</h3>
+          <div id="hobbies-list">
+            <div>
+              <i class="fa fa-paint-brush fa-5x"></i>
+              <p>Drawing</p>
+            </div>
+            <div>
+              <i class="fa fa-gamepad fa-5x"></i>
+              <p>Video Gaming</p>
+            </div>
+            <div>
+              <i class="fa fa-plane fa-5x"></i>
+              <p>Travelling</p>
+            </div>
+            <div>
+              <i class="fa fa-tv fa-5x"></i>
+              <p>Watching Anime</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

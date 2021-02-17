@@ -14,23 +14,27 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
   <body>
-    <div>
+    <div id="root">
       <nav class="topnav">
         <h1>Venkat Mithun Kadiyala</h1>
         <ul>
-          <li><a href="../index.html">Home</a></li>
+          <li><a href="../">Home</a></li>
           <li><a class="active" href="#projects">Projects</a></li>
-          <li><a href="../contact/index.html">Contact</a></li>
-          <li><a href="../about/index.html">About</a></li>
+          <li><a href="../contact/">Contact</a></li>
+          <li><a href="../about/">About</a></li>
         </ul>
+        <img src="../images/me.jpeg" alt="My Picture" id="pic" />
       </nav>
 
       <div id="projects">
-        <div>
+        <p id="text">
+          Here are some of the projects and volunteer experience...
+        </p>
+        <div class="bubble1 p-20">
           <h3>
             <a
               target="_blank"
@@ -38,12 +42,12 @@
               >PubMed Search Tool</a
             >
           </h3>
-          <p>
+          <p class="proj-desc">
             Made a customizable search tool for PubMed database to enhance the
             quality of research during COVID-19 pandemic
           </p>
         </div>
-        <div>
+        <div class="bubble2 p-20">
           <h3>
             <a
               target="_blank"
@@ -51,13 +55,13 @@
               >Database for food truck chain</a
             >
           </h3>
-          <p>
+          <p class="proj-desc">
             Modelled, developed and implemented a relational database to run a
             food truck chain leveraging MS SQL Server 2016, MySQLWorkbench and
             generated reports with Tableau
           </p>
         </div>
-        <div>
+        <div class="bubble3 p-20">
           <h3>
             <a
               target="_blank"
@@ -67,12 +71,12 @@
               by Microsoft Reactor)</a
             >
           </h3>
-          <p>
+          <p class="proj-desc">
             Builtweb app for crowd-sourcing accessibility reviews, ratings, and
             issues of software applications in multiple platforms
           </p>
         </div>
-        <div>
+        <div class="bubble4 p-20">
           <h3>
             <a
               target="_blank"
@@ -81,7 +85,7 @@
               Forecasting bi-hourly sales of a multi-national wholesale store
             </a>
           </h3>
-          <p>
+          <p class="proj-desc">
             Pre-processed data through Dimensionality Reduction (PCA) and
             developed multivariate Long Short-term Memory (LSTM) model built
             using Keras for time series forecasting of bi-hourly sales across
