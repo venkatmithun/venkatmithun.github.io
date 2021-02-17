@@ -1,0 +1,29 @@
+#about {
+  padding: 20px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#pic {
+  height: 300px;
+  width: 220px;
+  border-radius: 100px;
+  border-width: 1px;
+  transition: transform 0.5s;
+}
+
+#pic:hover {
+  transform: scale(1.4);
+  border-radius: 0px;
+}
+
+@media (max-width: 960px) {
+  #pic {
+    height: 200px;
+    width: 160px;
+    border-radius: 100px;
+    border-width: 1px;
+  }
+}

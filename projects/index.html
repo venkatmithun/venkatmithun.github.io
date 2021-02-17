@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -17,16 +18,77 @@
     />
   </head>
   <body>
-    <div class="topnav">
-      <a href="../">Home</a>
-      <a class="active" href="./">Projects</a>
-      <a href="../contact">Contact</a>
-      <a href="../about">About</a>
-    </div>
+    <div>
+      <nav class="topnav">
+        <h1>Venkat Mithun Kadiyala</h1>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a class="active" href="#projects">Projects</a></li>
+          <li><a href="../contact/index.html">Contact</a></li>
+          <li><a href="../about/index.html">About</a></li>
+        </ul>
+      </nav>
 
-    <div style="padding-left: 16px">
-      <h2>Top Navigation Example</h2>
-      <p>Some content..</p>
+      <div id="projects">
+        <div>
+          <h3>
+            <a
+              target="_blank"
+              href="https://github.com/venkatmithun/pubmed-database-search"
+              >PubMed Search Tool</a
+            >
+          </h3>
+          <p>
+            Made a customizable search tool for PubMed database to enhance the
+            quality of research during COVID-19 pandemic
+          </p>
+        </div>
+        <div>
+          <h3>
+            <a
+              target="_blank"
+              href="https://github.com/venkatmithun/foodtruck_database"
+              >Database for food truck chain</a
+            >
+          </h3>
+          <p>
+            Modelled, developed and implemented a relational database to run a
+            food truck chain leveraging MS SQL Server 2016, MySQLWorkbench and
+            generated reports with Tableau
+          </p>
+        </div>
+        <div>
+          <h3>
+            <a
+              target="_blank"
+              href="https://www.democracylab.org/index/?section=AboutProject&id=284"
+            >
+              AccessibilityRatings (Democracylab tech-for-good hackathon hosted
+              by Microsoft Reactor)</a
+            >
+          </h3>
+          <p>
+            Builtweb app for crowd-sourcing accessibility reviews, ratings, and
+            issues of software applications in multiple platforms
+          </p>
+        </div>
+        <div>
+          <h3>
+            <a
+              target="_blank"
+              href="https://github.com/venkatmithun/sales-forecasting"
+            >
+              Forecasting bi-hourly sales of a multi-national wholesale store
+            </a>
+          </h3>
+          <p>
+            Pre-processed data through Dimensionality Reduction (PCA) and
+            developed multivariate Long Short-term Memory (LSTM) model built
+            using Keras for time series forecasting of bi-hourly sales across
+            stores
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

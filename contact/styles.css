@@ -1,0 +1,52 @@
+#contact {
+  padding: 0px 16px 16px 16px;
+  display: grid;
+}
+
+#header {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+@media (max-width: 960px) {
+  #linkedIn {
+    grid-column: 1 / 3;
+    grid-row: 2;
+  }
+
+  #github {
+    grid-column: 1 / 3;
+    grid-row: 3;
+  }
+
+  #gmail {
+    grid-column: 1 / 3;
+    grid-row: 4;
+  }
+
+  #phone {
+    grid-column: 1 / 3;
+    grid-row: 5;
+  }
+}
+@media (min-width: 961px) {
+  #linkedIn {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+  }
+
+  #github {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  #gmail {
+    grid-column: 1 / 3;
+    grid-row: 3 / 3;
+  }
+
+  #phone {
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
+  }
+}
